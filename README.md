@@ -20,3 +20,4 @@ npm run start
 - [React](https://reactjs.org/) with Hooks.
 - [styled-components](https://styled-components.com/)
 - [react-icons](https://www.npmjs.com/package/react-icons)
+- [Bookstore API v1](https://bookstore.docs.apiary.io/#reference/authors/dataauthors/get)
