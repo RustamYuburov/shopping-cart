@@ -5,7 +5,6 @@ import Homebackground from '../../assets/homepage-background.jpg';
 export const HomeWrapper = styled(motion.div)`
   font-family: 'Poppins', sans-serif;
   color: white;
-  font-weight: 800;
   margin-top: 9px;
   height: 90vh;
   width: 100%;
@@ -32,15 +31,20 @@ export const ContentWrapper = styled.div`
 `;
 
 export const SmallText = styled.p`
-  margin: 20px 0;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 1.5rem;
-  text-shadow: 3px 3px 4px rgba(138, 82, 82);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: 'Julius Sans One', serif;
+  line-height: 45px;
+  text-align: center;
+  text-shadow: 0 10px 5px #000;
+  padding: 20px;
 `;
 
 export const BigText = styled.p`
   margin: 20px 0;
   font-size: 3rem;
+  font-weight: 800;
   font-family: 'Big Shoulders Stencil Display', monospace;
   font-size: 55px;
   letter-spacing: 7px;
