@@ -2,15 +2,21 @@ import styled from 'styled-components';
 import background from '../../assets/background.jpg';
 
 export const ContactsWrapper = styled.div`
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  font-weight: 800;
+  font-family: 'Julius Sans One', sans-serif;
   height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  & p {
+    color: #000;
+    font-size: 2.7rem;
+    line-height: 45px;
+    text-align: center;
+    text-shadow: 0 3px 5px #fff;
+    padding: 20px;
+  }
   animation: fadeIn ease 1s;
   @keyframes fadeIn {
     0% {
