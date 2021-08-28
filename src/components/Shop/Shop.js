@@ -7,7 +7,7 @@ import {
   BookCard,
   ImgCover,
 } from './style';
-import booksData from '../Data/Data';
+import booksData from '../utilities/Data/Data';
 
 const Shop = () => {
   const [books, setBooks] = useState([]);
