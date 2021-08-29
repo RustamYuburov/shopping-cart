@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/RustamYuburov/shopping-cart/static/css/main.fbbd6b57.chunk.css",
+    "main.js": "/RustamYuburov/shopping-cart/static/js/main.de48fd83.chunk.js",
+    "main.js.map": "/RustamYuburov/shopping-cart/static/js/main.de48fd83.chunk.js.map",
+    "runtime-main.js": "/RustamYuburov/shopping-cart/static/js/runtime-main.6499424c.js",
+    "runtime-main.js.map": "/RustamYuburov/shopping-cart/static/js/runtime-main.6499424c.js.map",
+    "static/js/2.b41b3b94.chunk.js": "/RustamYuburov/shopping-cart/static/js/2.b41b3b94.chunk.js",
+    "static/js/2.b41b3b94.chunk.js.map": "/RustamYuburov/shopping-cart/static/js/2.b41b3b94.chunk.js.map",
+    "index.html": "/RustamYuburov/shopping-cart/index.html",
+    "static/css/main.fbbd6b57.chunk.css.map": "/RustamYuburov/shopping-cart/static/css/main.fbbd6b57.chunk.css.map",
+    "static/js/2.b41b3b94.chunk.js.LICENSE.txt": "/RustamYuburov/shopping-cart/static/js/2.b41b3b94.chunk.js.LICENSE.txt",
+    "static/media/background.2801e984.jpg": "/RustamYuburov/shopping-cart/static/media/background.2801e984.jpg",
+    "static/media/empty-cart.10d2918f.png": "/RustamYuburov/shopping-cart/static/media/empty-cart.10d2918f.png",
+    "static/media/homepage-background.a447b5b8.jpg": "/RustamYuburov/shopping-cart/static/media/homepage-background.a447b5b8.jpg",
+    "static/media/shopping-cart.3dcb3c21.png": "/RustamYuburov/shopping-cart/static/media/shopping-cart.3dcb3c21.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6499424c.js",
+    "static/js/2.b41b3b94.chunk.js",
+    "static/css/main.fbbd6b57.chunk.css",
+    "static/js/main.de48fd83.chunk.js"
+  ]
+}
