@@ -10,7 +10,7 @@ A React based web app for shopping books online.
 
 ```bash
 git clone https://github.com/RustamYuburov/shopping-cart.git
-cd react-shopping-cart
+cd shopping-cart
 npm install
 npm run start
 ```
