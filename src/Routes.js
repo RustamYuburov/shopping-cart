@@ -30,7 +30,7 @@ const Routes = ({ shoppingCart, addItemToCart, removeItemFromCart }) => {
           render={() => (
             <Checkout
               shoppingCart={shoppingCart}
-              addIBookToCart={addItemToCart}
+              addBookToCart={addItemToCart}
               removeBookFromCart={removeItemFromCart}
             />
           )}
