@@ -6,27 +6,16 @@ import booksData from '../utilities/Data/Data';
 
 const ShopItem = ({ itemId, numberOfItems, addBookToCart }) => {
   useEffect(() => {
+    const fetchItem = async () => {
+      const data = booksData.find((bookInfo) => +bookInfo.ISBN === +itemId);
+      setBook(data);
+      setPrice(data.price.displayValue);
+    };
     fetchItem();
-  }, []);
+  }, [itemId]);
 
   const [book, setBook] = useState({});
   const [price, setPrice] = useState('');
-
-  const fetchItem = async () => {
-    // const bookId = match.params.id;
-    // console.log(bookId);
-    // const response = await fetch(
-    //   `https://private-anon-93c42f7b76-bookstore.apiary-mock.com/books/9789022558027`
-    // );
-    // const data = await response.json();
-    // // console.log(data);
-    // console.log(booksData);
-    // console.log(booksData[1].ISBN);
-    // console.log(typeof itemId);
-    const data = booksData.find((bookInfo) => +bookInfo.ISBN === +itemId);
-    setBook(data);
-    setPrice(data.price.displayValue);
-  };
 
   const handleClick = () => {
     addBookToCart({ ...book, quantity: 1 });
@@ -53,11 +42,11 @@ const ShopItem = ({ itemId, numberOfItems, addBookToCart }) => {
         <Button text={'Add to cart'} handleClick={handleClick}></Button>
         {numberOfItems ? (
           <Link to={'/checkout'}>
-            <Button text={'Complete order'} handleClick={handleClick}></Button>
+            <Button text={'Complete order'}></Button>
           </Link>
         ) : null}
         <Link to={'/shop'}>
-          <Button text={'Back to Shop'} handleClick={handleClick}></Button>
+          <Button text={'Back to Shop'}></Button>
         </Link>
       </ButtonsWrapper>
     </ContentWrapper>
