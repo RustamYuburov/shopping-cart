@@ -3,7 +3,6 @@ import background from '../../assets/background.jpg';
 
 export const ContentWrapper = styled.div`
   font-family: 'Poppins', sans-serif;
-  // color: white;
   font-weight: 800;
   width: 100%;
   padding: 20px 40px;
@@ -30,11 +29,11 @@ export const ContentWrapper = styled.div`
       rgba(30, 12, 41, 0.2)
     ),
     url(${background});
-    & a {
-      text-decoration: none;
-      color: black;
-      cursor: pointer;
-    }
+  & a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
 `;
 
 export const ShopWrapper = styled.div`
@@ -49,18 +48,9 @@ export const ShopWrapper = styled.div`
   }
   padding: 20px 40px;
   margin: 20px 40px;
-  // background-image: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
-  // border: solid black;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
 `;
 
 export const SmallText = styled.p`
-  // margin: 30px 0;
-  // font-family: 'IBM Plex Mono', monospace;
-  // font-size: 1.5rem;
-  // text-shadow: 3px 3px 4px rgba(138, 82, 82);
   color: #000;
   font-size: 1.8rem;
   letter-spacing: 0.5px;
@@ -86,13 +76,6 @@ export const BookCard = styled.div`
   img {
     height: 55vh;
   }
-  // .card-image {
-  //   height: 60vh;
-  //   width: 280px;
-  //   background-color: #333;
-  //   background-position: center;
-  //   background-size: cover;
-  // }
   h1,
   p {
     font-size: 19px;
@@ -104,7 +87,6 @@ export const BookCard = styled.div`
     font-size: 15px;
     font-family: 'Julius Sans One', sans-serif, monospace;
     letter-spacing: 1px;
-    // background-color: #e3e3e3;
     border-radius: 2px;
     padding: 2px 4px;
     margin-top: 8px;
@@ -237,71 +219,9 @@ export const BookInfo = styled.div`
 export const ButtonsWrapper = styled.div`
   display: flex;
   justify-content: space-around;
-  // border: solid;
   margin: -25px auto 100px auto;
   padding: 10px;
   @media (max-width: 950px) {
     flex-direction: column;
-  }8
   }
 `;
-
-// export const Button = styled.div`
-//   width: 100%;
-//   margin: 10px 15px;
-//   text-align: center;
-
-//   button {
-//     outline: none;
-//     letter-spacing: 0.5px;
-//     width: 200px;
-//     height: 40px;
-//     padding: 25px;
-//     border: 2px solid #000;
-//     font-size: 1rem;
-//     font-family: 'Poppins', sans-serif;
-//     font-weight: 600;
-//     background: transparent;
-//     cursor: pointer;
-//     transition: all 0.3s ease;
-//     position: relative;
-//     display: inline-block;
-
-//     background: #000;
-//     color: #fff;
-//     line-height: 42px;
-//     padding: 0;
-//     border: none;
-
-//     &:hover {
-//       background: white;
-//       color: #000;
-//       box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
-//         7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
-//     }
-//     &:before,
-//     &:after {
-//       content: '';
-//       position: absolute;
-//       top: 0;
-//       right: 0;
-//       height: 2px;
-//       width: 0;
-//       background: #000;
-//       transition: 400ms ease all;
-//     }
-
-//     &:after {
-//       right: inherit;
-//       top: inherit;
-//       left: 0;
-//       bottom: 0;
-//     }
-
-//     &:hover:before,
-//     &:hover:after {
-//       width: 100%;
-//       transition: 800ms ease all;
-//     }
-//   }
-// `;
