@@ -27,7 +27,7 @@ const Homepage = () => {
           make helps fund it.
         </SmallText>
         <Underline src={underline} />
-        <Link to="/shop">
+        <Link to="/shopping-cart/shop">
           <ButtonWrapper>
             <p></p>
           </ButtonWrapper>

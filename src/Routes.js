@@ -10,11 +10,11 @@ const Routes = ({ shoppingCart, addItemToCart, removeItemFromCart }) => {
   return (
     <div>
       <Switch>
-        <Route exact path="/" component={Homepage} />
-        <Route exact path="/shop" component={Shop} />
+        <Route exact path="/shopping-cart" component={Homepage} />
+        <Route exact path="/shopping-cart/shop" component={Shop} />
         <Route
           exact
-          path="/shop/:id"
+          path="/shopping-cart/shop/:id"
           render={(routeProps) => (
             <ShopItem
               itemId={routeProps.match.params.id}
@@ -23,10 +23,10 @@ const Routes = ({ shoppingCart, addItemToCart, removeItemFromCart }) => {
             />
           )}
         />
-        <Route exact path="/contacts" component={Contacts} />
+        <Route exact path="/shopping-cart/contacts" component={Contacts} />
         <Route
           exact
-          path="/checkout"
+          path="/shopping-cart/checkout"
           render={() => (
             <Checkout
               shoppingCart={shoppingCart}

@@ -12,16 +12,16 @@ const NavBar = ({ shoppingCart }) => {
         </Link>
       </div>
       <ul className="nav-links">
-        <Link to="/">
+        <Link to="/shopping-cart">
           <li>HOMEPAGE</li>
         </Link>
-        <Link to="/shop">
+        <Link to="/shopping-cart/shop">
           <li>SHOP</li>
         </Link>
-        <Link to="/contacts">
+        <Link to="/shopping-cart/contacts">
           <li>CONTACTS</li>
         </Link>
-        <Link to="/checkout">
+        <Link to="/shopping-cart/checkout">
           <li>
             <img src={Cart} alt="cart icon" />
             {shoppingCart ? <span>{shoppingCart}</span> : null}
