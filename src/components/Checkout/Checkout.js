@@ -100,7 +100,7 @@ const Checkout = ({ shoppingCart, addBookToCart, removeBookFromCart }) => {
               text={'Proceed to payment'}
               handleClick={handleClick}
             ></Button>
-            <Link to={'/shopping-cart//shop'}>
+            <Link to={'/shopping-cart/shop'}>
               <Button text={'Back to Shop'}></Button>
             </Link>
           </Payment>
