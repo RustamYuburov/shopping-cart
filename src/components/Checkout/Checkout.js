@@ -46,7 +46,7 @@ const Checkout = ({ shoppingCart, addBookToCart, removeBookFromCart }) => {
         <EmptyCart>
           <h2>Your have 0 books in your cart</h2>
           <CartIcon src={emptyCart}></CartIcon>
-          <Link to={'/shopping-cart//shop'}>
+          <Link to={'/shop'}>
             <Button text={'Back to Shop'}></Button>
           </Link>
         </EmptyCart>
@@ -100,7 +100,7 @@ const Checkout = ({ shoppingCart, addBookToCart, removeBookFromCart }) => {
               text={'Proceed to payment'}
               handleClick={handleClick}
             ></Button>
-            <Link to={'/shopping-cart/shop'}>
+            <Link to={'shop'}>
               <Button text={'Back to Shop'}></Button>
             </Link>
           </Payment>
