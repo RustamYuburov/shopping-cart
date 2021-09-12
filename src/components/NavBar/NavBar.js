@@ -1,18 +1,18 @@
 import React from 'react';
 import { NavWrapper } from './style';
 import { Link } from 'react-router-dom';
-import Cart from '../../assets.png';
+import Cart from '../../assets/shopping-cart.png';
 
 const NavBar = ({ shoppingCart }) => {
   return (
     <NavWrapper>
       <div>
-        <Link to="/">
+        <Link to="/homepage">
           <h3>BOOK PLANET</h3>
         </Link>
       </div>
       <ul className="nav-links">
-        <Link to="/">
+        <Link to="/homepage">
           <li>HOMEPAGE</li>
         </Link>
         <Link to="/shop">

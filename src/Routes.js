@@ -11,7 +11,7 @@ const Routes = ({ shoppingCart, addItemToCart, removeItemFromCart }) => {
     <div>
       <Switch>
         {/* <Route exact path="/" component={Homepage} /> */}
-        <Route exact path="/shopping-cart/" component={Homepage}>
+        <Route exact path="/homepage" component={Homepage}>
           <Homepage />
         </Route>
         <Route exact path="/shop" component={Shop} />
