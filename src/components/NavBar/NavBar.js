@@ -7,12 +7,12 @@ const NavBar = ({ shoppingCart }) => {
   return (
     <NavWrapper>
       <div>
-        <Link to="/homepage">
+        <Link to="/shopping-cart/">
           <h3>BOOK PLANET</h3>
         </Link>
       </div>
       <ul className="nav-links">
-        <Link to="/homepage">
+        <Link to="/shopping-cart/">
           <li>HOMEPAGE</li>
         </Link>
         <Link to="/shop">
