@@ -2,7 +2,7 @@
 
 A React based web app for shopping books online.
 
-> - [Live Demo](https://rustamyuburov.github.io/shopping-cart) 'Click on Homepage button'
+> - [Live Demo](https://rustamyuburov.github.io/shopping-cart)       'Click on Homepage button'
 
 ## Getting Started
 
